@@ -1,9 +1,7 @@
 {
   "name": "events-monorepo-prototype",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "Ben Limmer",
-  "license": "ISC",
-  "workspaces": ["./packages/*"]
+  "workspaces": [
+    "./packages/*"
+  ],
+  "packageManager": "yarn@3.0.2"
 }
