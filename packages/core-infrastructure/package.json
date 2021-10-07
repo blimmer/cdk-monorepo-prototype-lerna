@@ -8,6 +8,8 @@
     "test": "jest",
     "cdk": "cdk"
   },
+  "main": "dist/lib/index",
+  "types": "dist/lib/types",
   "devDependencies": {
     "@aws-cdk/assert": "1.126.0",
     "@types/jest": "^26.0.10",
@@ -19,6 +21,7 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-sns": "1.126.0",
     "@aws-cdk/core": "1.126.0",
     "lodash": "^4.17.21",
     "source-map-support": "^0.5.16"
