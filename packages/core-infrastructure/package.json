@@ -8,8 +8,7 @@
     "test": "jest",
     "cdk": "cdk"
   },
-  "main": "dist/lib/index",
-  "types": "dist/lib/types",
+  "main": "lib/index",
   "devDependencies": {
     "@aws-cdk/assert": "1.126.0",
     "@types/jest": "^26.0.10",
