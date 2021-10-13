@@ -3739,7 +3739,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-infrastructure@workspace:packages/core-infrastructure":
+"core-infrastructure@*, core-infrastructure@workspace:packages/core-infrastructure":
   version: 0.0.0-use.local
   resolution: "core-infrastructure@workspace:packages/core-infrastructure"
   dependencies:
@@ -8275,6 +8275,7 @@ fsevents@^2.1.2:
     "@types/node": 10.17.27
     aws-cdk: 1.126.0
     axios: ^0.22.0
+    core-infrastructure: "*"
     jest: ^26.4.2
     source-map-support: ^0.5.16
     ts-jest: ^26.2.0

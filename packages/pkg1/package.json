@@ -23,6 +23,7 @@
     "@aws-cdk/aws-lambda-nodejs": "1.126.0",
     "@aws-cdk/core": "1.126.0",
     "axios": "^0.22.0",
+    "core-infrastructure": "*",
     "source-map-support": "^0.5.16"
   }
 }
