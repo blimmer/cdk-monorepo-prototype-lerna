@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
 export async function handler() {
-  await axios.get('https://google.com');
+  await axios.get("https://bing.com");
   return true;
 }
