@@ -1,6 +1,6 @@
 {
   "name": "pkg1",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "build": "tsc",
@@ -23,7 +23,7 @@
     "@aws-cdk/aws-lambda-nodejs": "1.126.0",
     "@aws-cdk/core": "1.126.0",
     "axios": "^0.22.0",
-    "core-infrastructure": "*",
+    "core-infrastructure": "^0.3.0",
     "source-map-support": "^0.5.16"
   }
 }
