@@ -4,5 +4,13 @@
   "publish": {
     "registry": "localhost:4567"
   },
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "command": {
+    "changed": {
+      "all": true
+    },
+    "publish": {
+      "message": "[skip ci] lerna commit-back"
+    }
+  }
 }
