@@ -4,6 +4,9 @@
     "./packages/*"
   ],
   "packageManager": "yarn@3.0.2",
+  "scripts": {
+    "version": "yarn"
+  },
   "devDependencies": {
     "lerna": "^4.0.0",
     "prettier": "^2.4.1",
