@@ -9,7 +9,7 @@
     "changed": {
       "all": true
     },
-    "publish": {
+    "version": {
       "message": "[skip ci] lerna commit-back"
     }
   }
