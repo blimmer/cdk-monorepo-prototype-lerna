@@ -7,7 +7,7 @@ export class Pkg2Stack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    // some change again
+    // some change 2
 
     const entry = join(__dirname, "lambda", "index.ts");
     new nodelambda.NodejsFunction(this, "Lambda", {
