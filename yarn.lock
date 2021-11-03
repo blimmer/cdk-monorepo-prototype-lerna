@@ -8284,6 +8284,27 @@ fsevents@^2.1.2:
   languageName: unknown
   linkType: soft
 
+"pkg2@workspace:packages/pkg2":
+  version: 0.0.0-use.local
+  resolution: "pkg2@workspace:packages/pkg2"
+  dependencies:
+    "@aws-cdk/assert": 1.126.0
+    "@aws-cdk/aws-lambda-nodejs": 1.126.0
+    "@aws-cdk/core": 1.126.0
+    "@types/aws-lambda": ^8.10.83
+    "@types/jest": ^26.0.10
+    "@types/node": 10.17.27
+    aws-cdk: 1.126.0
+    axios: ^0.22.0
+    core-infrastructure: ^0.7.0
+    jest: ^26.4.2
+    source-map-support: ^0.5.16
+    ts-jest: ^26.2.0
+    ts-node: ^9.0.0
+    typescript: ~3.9.7
+  languageName: unknown
+  linkType: soft
+
 "posix-character-classes@npm:^0.1.0":
   version: 0.1.1
   resolution: "posix-character-classes@npm:0.1.1"
